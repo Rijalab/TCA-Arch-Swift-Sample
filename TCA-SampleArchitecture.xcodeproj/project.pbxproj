@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		2498595E2C3F74A900171CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498595D2C3F74A900171CB7 /* AppDelegate.swift */; };
 		249859602C3F74A900171CB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498595F2C3F74A900171CB7 /* SceneDelegate.swift */; };
-		249859622C3F74A900171CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249859612C3F74A900171CB7 /* ViewController.swift */; };
+		249859622C3F74A900171CB7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249859612C3F74A900171CB7 /* CalculatorViewController.swift */; };
 		249859652C3F74A900171CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249859632C3F74A900171CB7 /* Main.storyboard */; };
 		249859672C3F74AB00171CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249859662C3F74AB00171CB7 /* Assets.xcassets */; };
 		2498596A2C3F74AB00171CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249859682C3F74AB00171CB7 /* LaunchScreen.storyboard */; };
 		249859752C3F74AB00171CB7 /* TCA_SampleArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249859742C3F74AB00171CB7 /* TCA_SampleArchitectureTests.swift */; };
 		2498597F2C3F74AB00171CB7 /* TCA_SampleArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498597E2C3F74AB00171CB7 /* TCA_SampleArchitectureUITests.swift */; };
 		249859812C3F74AB00171CB7 /* TCA_SampleArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249859802C3F74AB00171CB7 /* TCA_SampleArchitectureUITestsLaunchTests.swift */; };
+		2498598E2C3F87CF00171CB7 /* AgeCalculatorFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498598D2C3F87CF00171CB7 /* AgeCalculatorFeature.swift */; };
+		249859CA2C3F8E2100171CB7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 249859C92C3F8E2100171CB7 /* ComposableArchitecture */; };
+		249859CC2C3F972000171CB7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249859CB2C3F972000171CB7 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		2498595A2C3F74A900171CB7 /* TCA-SampleArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-SampleArchitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2498595D2C3F74A900171CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2498595F2C3F74A900171CB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		249859612C3F74A900171CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		249859612C3F74A900171CB7 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		249859642C3F74A900171CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		249859662C3F74AB00171CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249859692C3F74AB00171CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 		2498597A2C3F74AB00171CB7 /* TCA-SampleArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-SampleArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2498597E2C3F74AB00171CB7 /* TCA_SampleArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_SampleArchitectureUITests.swift; sourceTree = "<group>"; };
 		249859802C3F74AB00171CB7 /* TCA_SampleArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_SampleArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2498598D2C3F87CF00171CB7 /* AgeCalculatorFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalculatorFeature.swift; sourceTree = "<group>"; };
+		249859CB2C3F972000171CB7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249859CA2C3F8E2100171CB7 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244FBD7C2C413D0A00FB2FD7 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				249859612C3F74A900171CB7 /* CalculatorViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
 		249859512C3F74A900171CB7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +115,9 @@
 			children = (
 				2498595D2C3F74A900171CB7 /* AppDelegate.swift */,
 				2498595F2C3F74A900171CB7 /* SceneDelegate.swift */,
-				249859612C3F74A900171CB7 /* ViewController.swift */,
+				249859CB2C3F972000171CB7 /* Extensions.swift */,
+				244FBD7C2C413D0A00FB2FD7 /* Viewcontrollers */,
+				2498598D2C3F87CF00171CB7 /* AgeCalculatorFeature.swift */,
 				249859632C3F74A900171CB7 /* Main.storyboard */,
 				249859662C3F74AB00171CB7 /* Assets.xcassets */,
 				249859682C3F74AB00171CB7 /* LaunchScreen.storyboard */,
@@ -143,6 +159,9 @@
 			dependencies = (
 			);
 			name = "TCA-SampleArchitecture";
+			packageProductDependencies = (
+				249859C92C3F8E2100171CB7 /* ComposableArchitecture */,
+			);
 			productName = "TCA-SampleArchitecture";
 			productReference = 2498595A2C3F74A900171CB7 /* TCA-SampleArchitecture.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 249859512C3F74A900171CB7;
+			packageReferences = (
+				249859C82C3F8E2100171CB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 2498595B2C3F74A900171CB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249859622C3F74A900171CB7 /* ViewController.swift in Sources */,
+				249859CC2C3F972000171CB7 /* Extensions.swift in Sources */,
+				249859622C3F74A900171CB7 /* CalculatorViewController.swift in Sources */,
+				2498598E2C3F87CF00171CB7 /* AgeCalculatorFeature.swift in Sources */,
 				2498595E2C3F74A900171CB7 /* AppDelegate.swift in Sources */,
 				249859602C3F74A900171CB7 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,7 +470,6 @@
 				INFOPLIST_FILE = "TCA-SampleArchitecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,7 +496,6 @@
 				INFOPLIST_FILE = "TCA-SampleArchitecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -601,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		249859C82C3F8E2100171CB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		249859C92C3F8E2100171CB7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 249859C82C3F8E2100171CB7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 249859522C3F74A900171CB7 /* Project object */;
 }
